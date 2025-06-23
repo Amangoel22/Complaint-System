@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Sign-Up</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container">
+        <h1>Defence Research and Development Organisation</h1>
+        <h2>Centre for Fire, Explosive and Environment Safety (CFEES), Delhi</h2>
+    </div>
+
+    <!-- Input Fields -->
+    <div class="whitebg">
+        <h2>Please Enter Your Details To Register</h2>
+
+        <div class="row">
+            <div class="group">
+                <label for="id"><i class="fas fa-id-card"></i>ID:</label>
+                <input type="text" id="id" placeholder="Enter Your ID">
+            </div>
+
+            <div class="group">
+                <label for="name"><i class="fas fa-user"></i>First Name:</label>
+                <input type="text" id="name" placeholder="Enter Your First Name">
+            </div>
+
+            <div class="group">
+                <label for="name"><i class="fas fa-user"></i>Middle Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Middle Name">
+            </div>
+
+            <div class="group">
+                <label for="name"><i class="fas fa-user"></i>Last Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Last Name">
+            </div>
+
+            <div class="group">
+                <label for="gender"> <i class="fas fa-venus-mars"></i>Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="age"><i class="fa-solid fa-cake-candles"></i>Age:</label>
+                <select id="age" name="age">
+                    <option value="" disabled selected>Select your age</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46+">46+</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="email"><i class="fa-solid fa-envelope"></i>Email ID:</label>
+                <input type="email" id="email" placeholder="Enter Your Email ID">
+            </div>
+
+            <div class="group">
+                <label for="phone"><i class="fa-solid fa-phone"></i>Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter Your Phone Number">
+            </div>
+
+            <div class="group">
+                <label for="telno"><i class="fa-solid fa-tty"></i>Telephone Number:</label>
+                <input type="tel" id="telno" placeholder="Enter Your Telephone Number">
+            </div>
+
+            <div class="group">
+                <label for="dept"><i class="fa-solid fa-building"></i>Department:</label>
+                <select id="dept" name="dept">
+                    <option value="" disabled selected>Select your department</option>
+                    <option value="IT">IT</option>
+                    <option value="Networking">Networking</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="dob"><i class="fa-solid fa-cake-candles"></i>Date Of Birth:</label>
+                <input type="date" id="dob" placeholder="Enter Your DOB">
+            </div>
+
+            <div class="group">
+                <label for="cadreid"><i class="fas fa-id-card"></i>Cadre ID:</label>
+                <input type="text" id="cadreid" placeholder="Enter Your Cadre ID">
+            </div>
+
+            <div class="group">
+                <label for="desigid"><i class="fa-solid fa-address-card"></i>Designation ID:</label>
+                <input type="text" id="desigid" placeholder="Enter Your Designation ID">
+            </div>
+
+            <div class="group">
+                <label for="idesigid"><i class="fa-solid fa-id-badge"></i>Internal Designation ID:</label>
+                <input type="text" id="idesigid" placeholder="Enter Your Internal Designation ID">
+            </div>
+
+            <div class="group">
+                <label for="gid"><i class="fa-solid fa-id-card-clip"></i>Group ID:</label>
+                <input type="text" id="gid" placeholder="Enter Your Phone Number">
+            </div>
+
+            <div class="group">
+                <label for="user"><i class="fa-solid fa-user-tie"></i>User Type:</label>
+                <select id="user" name="user">
+                    <option value="" disabled selected>Select Your Employment Type</option>
+                    <option value="permanent">Permanant</option>
+                    <option value="generic">Generic</option>
+                    <option value="temp">Temporary</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="uname"><i class="fa-solid fa-address-book"></i>Username:</label>
+                <input type="text" id="uname" placeholder="Create Your Username">
+            </div>
+
+            <div class="group">
+                <label for="pass"><i class="fa-solid fa-lock"></i>Password:</label>
+                <input type="text" id="pass" placeholder="Create Your Password">
+            </div>
+
+            <!-- Password Requirements -->
+            <div class="password-requirements-container">
+                <p>Password Must Contain:</p>
+                <ul class="password-requirements">
+                    <li>Should Be At Least 8 Characters Long</li>
+                    <li>Capital Letter (A-Z)</li>
+                    <li>Special Character (@,#,$,%,&,*,!)</li>
+                    <li>A Numeric Value (0-9)</li>
+                </ul>
+            </div>
+
+            <!-- Submit Button -->
+            <a href="complaint.html" class="btn-anchor">
+                <button class="btn">Submit</button>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
